@@ -1,0 +1,47 @@
+fontSize
+right
+flexDirection: 'row',
+width: '100%',
+width: 90,
+width
+top: '50%',
+position: 'absolute',
+paddingHorizontal
+paddingVertical: 8
+padding: 12,
+paddingTop
+height
+bottom
+borderRadius
+backgroundColor
+resizeMode: 'contain'  lo que hace es que la imagen se vea de la mejor manera
+marginTop: 40
+marginRight : 10
+marginLeft: -45,
+display: 'flex', 
+borderWidth
+overflow: 'hidden',
+fontSize: 18
+fontWeight: 'bold'
+fontWeight: '500',
+fontFamily: "Rubik-Light"
+backgroundColor:'transparent'
+
+
+<ImageBackground source= {require('.car/')}
+
+<TouchableOpacity><Text><Text>
+</TouchableOpacity>
+
+<Button onPress={} title="Login"><Button>
+
+<TextInput placeholder="Nombre de " placeholderTextColor="white" maxLength={8} value="Ciapfa"  style={{ borderWidth : 1, borderColor : 'white', padding: 5, marginTop:  10 }}>  <TextInput>
+
+<ScrollView><View><Text><ScrollView>
+
+Dimension, SafeAreaView :: investigar ::
+
+shadowOpacity: 0.11,
+shadowOffset: { width: 0, height: 2 },
+shadowRadius: 13
+

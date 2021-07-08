@@ -1,0 +1,13 @@
+background:url('imge);
+background-position:center;
+background-size:cover;
+height:100vh
+background-attachment:fixed;
+
+
+display:flex;
+flex-flow:row wrap;
+ @media all and (max width: 800){
+ }
+
+

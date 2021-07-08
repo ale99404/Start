@@ -1,0 +1,263 @@
+        /* PRACTICE 2 */
+*{
+    margin:10px;
+    padding: 10px;
+    box-sizing: border-box;
+}
+.padre{
+    display: flex;
+    flex-flow: column nowrap;
+}
+    .header{
+        background: #000;
+        display: flex;
+        flex-flow: column nowrap;
+    }
+        .menu{
+            background: #2d4059;
+            display:flex;
+            flex-flow: row nowrap;
+            height:100px;  
+            align-items:center;
+        }
+            .logo{
+                background: #ea5455;
+                flex:1 1 auto;
+                height:50px;
+            }
+            .nav1{
+                background: #ea5455;
+                flex:5 1 auto;
+                height:50px;
+            }
+            .social{
+                background: #ea5455;
+                flex:1 1 auto;
+                height:50px; 
+            }
+        .texto-principal{
+            background: #000;
+        }  
+            h1 {
+               background: #ffd460; 
+            } 
+    .section{
+        background: #000;
+        display:flex;
+    }
+        .articulos{
+            background: #4e4e6a;
+            flex:1 1 100%;
+            display: flex;
+            flex-flow:row wrap;
+        }
+            .article{
+                background: #1f6cb0;
+                flex:1 1 40%;
+            }
+            .navegation{
+                background: #79a3c4;
+                flex:1 1 100%;
+            }
+        .aside{
+            background: #f73f52;   
+            flex:1 1 100%;
+            display:flex;
+            flex-flow:row wrap;
+        }
+            .publicidad{
+                background: #ffea85;
+            }
+    .footer{
+        background: #000;
+        display: flex;
+        justify-content:center;
+        height:100px;
+    }
+        .pie{
+            background: #e6af2e;
+            width:30px; 
+        }
+ @media all and (max-width: 800px){
+     .section{
+         flex-direction: column;
+     }
+ }
+
+
+
+
+
+
+                      /* Good */
+/* *{
+    margin:10px;
+    padding: 10px;
+    box-sizing: border-box;
+}
+.padre{
+    display: flex;
+    flex-flow: column nowrap;
+}
+    .header{
+        background: #000;
+        display: flex;
+        flex-flow: column nowrap;
+    }
+        .menu{
+            background: #2d4059;
+            display:flex;
+            flex-flow: row nowrap;
+            height:100px;  
+            align-items:center;
+        }
+            .logo{
+                background: #ea5455;
+                flex:1 1 auto;
+                height:50px;
+            }
+            .nav1{
+                background: #ea5455;
+                flex:5 1 auto;
+                height:50px;
+            }
+            .social{
+                background: #ea5455;
+                flex:1 1 auto;
+                height:50px; 
+            }
+        .texto-principal{
+            background: #000;
+        }  
+            h1 {
+               background: #ffd460; 
+            } 
+    .section{
+        background: #000;
+        display:flex;
+    }
+        .articulos{
+            background: #4e4e6a;
+            flex:2 1 auto;
+            display:flex;
+            flex-flow: row wrap;
+        }
+            .article{
+                background: #1f6cb0;
+                flex:1 1 40%;
+            }
+            .navegation{
+                background: #79a3c4;
+                flex:1 1 100%;
+            }
+        .aside{
+            background: #f73f52;   
+            flex:1 1 auto;
+        }
+            .publicidad{
+                    background: #ffea85;
+            }
+    .footer{
+        background: #000;
+        display:flex;
+        justify-content: center;
+    }
+        .pie{
+            background: #e6af2e;
+            width: 300px;
+        } */
+
+
+
+
+
+
+
+
+                  /* Clase proyecto Personal  */
+/* .logotipo {
+    width: 150px;
+    padding: 10px 0px;
+}
+
+.img2 {
+    background: url('../images/pantallas/pantalla_2.jpg');
+    background-position: center;
+    height: 100vh;
+    background-size:cover;
+    background-attachment:fixed;
+}    */
+
+
+
+/* *{
+    margin:10px;
+    padding: 10px;
+    box-sizing: border-box;
+}
+.padre{
+    display: flex;
+    flex-flow: column nowrap;
+}
+    .header{
+        background: #000;
+        display: flex;
+        flex-flow: column nowrap;
+    }
+        .menu{
+            background: #2d4059;
+            display:flex;
+            flex-flow: row nowrap;
+            height:100px;  
+            align-items:center;
+        }
+            .logo{
+                background: #ea5455;
+                flex:1 1 auto;
+                height:50px;
+            }
+            .nav1{
+                background: #ea5455;
+                flex:5 1 auto;
+                height:50px;
+            }
+            .social{
+                background: #ea5455;
+                flex:1 1 auto;
+                height:50px; 
+            }
+        .texto-principal{
+            background: #000;
+        }  
+            h1 {
+               background: #ffd460; 
+            } 
+    .section{
+        background: #000;
+        display:flex;
+    }
+        .articulos{
+            background: #4e4e6a;
+        }
+            .article{
+                background: #1f6cb0;
+            }
+            .navegation{
+                background: #79a3c4;
+            }
+        .aside{
+            background: #f73f52;   
+        }
+        .publicidad{
+                background: #ffea85;
+        }
+    .footer{
+        background: #000;
+    }
+        .pie{
+            background: #e6af2e;
+        } */
+
+
+
+
